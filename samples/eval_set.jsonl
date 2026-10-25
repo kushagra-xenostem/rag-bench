@@ -1,0 +1,24 @@
+{"id": "hb1", "question": "How much is the home office stipend?", "answerable": true, "evidence": "home office stipend of 600 USD", "answer_keywords": ["600"]}
+{"id": "hb2", "question": "Within how many days must I submit receipts for home office equipment?", "answerable": true, "evidence": "submitted within 60 days of purchase", "answer_keywords": ["60"]}
+{"id": "hb3", "question": "How many days per week can I work from home?", "answerable": true, "evidence": "up to three days per week", "answer_keywords": ["three"]}
+{"id": "hb4", "question": "How many unused vacation days roll over to next year?", "answerable": true, "evidence": "Up to 5 unused days may be carried over", "answer_keywords": ["5"]}
+{"id": "hb5", "question": "What is my yearly budget for courses and conferences?", "answerable": true, "evidence": "annual learning budget of 1,200 USD", "answer_keywords": ["1,200"]}
+{"id": "hb6", "question": "Who must approve working abroad for more than two weeks?", "answerable": true, "evidence": "written approval from the Legal team", "answer_keywords": ["Legal"]}
+{"id": "tr1", "question": "What is the maximum hotel rate per night in London?", "answerable": true, "evidence": "180 USD in tier-1 cities", "answer_keywords": ["180"]}
+{"id": "tr2", "question": "Can I fly premium economy on a 7 hour flight?", "answerable": true, "evidence": "Premium economy may be booked for flights of 6 hours or longer", "answer_keywords": ["6 hours"]}
+{"id": "tr3", "question": "How much is the daily meal allowance when travelling?", "answerable": true, "evidence": "daily meal allowance of 60 USD", "answer_keywords": ["60"]}
+{"id": "tr4", "question": "Is alcohol reimbursed on business trips?", "answerable": true, "evidence": "Alcohol is not reimbursable", "answer_keywords": ["not"]}
+{"id": "ax1", "question": "How often should the HEPA filter be replaced?", "answerable": true, "evidence": "Replace the combined HEPA and carbon filter every 12 months", "answer_keywords": ["12 months"]}
+{"id": "ax2", "question": "How do I reset the filter indicator after changing the filter?", "answerable": true, "evidence": "hold the Filter button for 5 seconds", "answer_keywords": ["5 seconds"]}
+{"id": "ax3", "question": "What does error E2 mean on the purifier?", "answerable": true, "evidence": "E2 indicates the filter is missing", "answer_keywords": ["filter"]}
+{"id": "ax4", "question": "Why won't my purifier connect to my 5 GHz Wi-Fi?", "answerable": true, "evidence": "5 GHz networks are not supported", "answer_keywords": ["2.4"]}
+{"id": "ax5", "question": "How loud is the air purifier at its highest fan speed?", "answerable": true, "evidence": "52 dB at Turbo speed", "answer_keywords": ["52"]}
+{"id": "ax6", "question": "The device makes a clicking sound, what should I do?", "answerable": true, "evidence": "clicking noise usually means the filter is not seated correctly", "answer_keywords": ["filter"]}
+{"id": "ax7", "question": "How do I lock the buttons so my kids cannot change settings?", "answerable": true, "evidence": "holding the Lock and Timer buttons together for 3 seconds", "answer_keywords": ["3 seconds"]}
+{"id": "ax8", "question": "How can I get a third year of warranty?", "answerable": true, "evidence": "extendable to 3 years by registering the product within 30 days", "answer_keywords": ["30 days"]}
+{"id": "ax9", "question": "What room size is the purifier suitable for?", "answerable": true, "evidence": "covers rooms up to 45 square metres", "answer_keywords": ["45"]}
+{"id": "ax10", "question": "What does an orange ring light mean?", "answerable": true, "evidence": "orange means unhealthy for sensitive groups", "answer_keywords": ["sensitive"]}
+{"id": "na1", "question": "What is the parental leave policy?", "answerable": false}
+{"id": "na2", "question": "Does the purifier have a humidifier function?", "answerable": false}
+{"id": "na3", "question": "What is the company's stock ticker symbol?", "answerable": false}
+{"id": "na4", "question": "Who won the football world cup in 2022?", "answerable": false}

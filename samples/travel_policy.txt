@@ -1,0 +1,17 @@
+Northwind Labs Travel and Expense Policy (2026)
+Fictional sample document for demonstrating RAG Chat Hub.
+
+Flights
+Economy class is mandatory for flights shorter than 6 hours. Premium economy may be booked for flights of 6 hours or longer.
+All flights must be booked through the company travel portal at least 14 days before departure where possible.
+
+Hotels
+The nightly hotel limit is 180 USD in tier-1 cities (for example London, New York, Singapore) and 120 USD elsewhere.
+Bookings above the limit require approval from the finance team before the stay.
+
+Meals and Per Diem
+Employees travelling on business receive a daily meal allowance of 60 USD. Alcohol is not reimbursable.
+
+Expense Claims
+Expense claims must be submitted with receipts within 30 days of the end of the trip.
+Claims are reimbursed with the next monthly payroll after approval.
