@@ -1,11 +1,9 @@
 import threading
-from dataclasses import dataclass
-
 import numpy as np
-
 from .bm25 import BM25
-from .embed import Embedder, Reranker
 from .store import Store
+from dataclasses import dataclass
+from .embed import Embedder, Reranker
 
 METHODS = ("bm25", "semantic", "hybrid")
 RRF_K = 60

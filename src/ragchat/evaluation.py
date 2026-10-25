@@ -5,12 +5,11 @@ Eval set (JSONL), one item per line:
    "evidence": "phrase that must appear in a retrieved chunk",
    "answer_keywords": ["600", "receipts"]}
 Unanswerable items set "answerable": false and omit evidence/keywords."""
-import json
 import re
+import json
 import time
-from collections.abc import Callable
-
 from .llm import REFUSAL
+from collections.abc import Callable
 from .retrieval import RetrievalConfig, Retriever
 
 

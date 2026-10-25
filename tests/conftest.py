@@ -1,10 +1,9 @@
-import hashlib
-import json
 import sys
-from pathlib import Path
-
-import numpy as np
+import json
 import pytest
+import hashlib
+import numpy as np
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT / "src"), str(ROOT / "launcher")]

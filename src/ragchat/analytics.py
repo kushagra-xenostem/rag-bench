@@ -1,8 +1,7 @@
 """Feedback analytics: answer quality, content gaps and data-driven setting suggestions."""
 import time
-from collections import Counter, defaultdict
-
 from .llm import REFUSAL
+from collections import Counter, defaultdict
 
 MIN_RATINGS_FOR_SUGGESTION = 5
 

@@ -1,11 +1,9 @@
 import os
 import threading
+import numpy as np
+from .config import ROOT
 from pathlib import Path
 from typing import Protocol
-
-import numpy as np
-
-from .config import ROOT
 
 EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 RERANK_MODEL = "Xenova/ms-marco-MiniLM-L-6-v2"

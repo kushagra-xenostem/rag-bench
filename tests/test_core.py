@@ -1,7 +1,5 @@
 import io
-
 import pytest
-
 from ragchat.bm25 import BM25, tokenize
 from ragchat.chunking import chunk_text
 from ragchat.loaders import UnsupportedFile, extract_text

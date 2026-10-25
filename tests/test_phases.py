@@ -2,10 +2,8 @@
 import io
 import json
 import zipfile
-
-from conftest import ndjson
-
 from ragchat import llm
+from conftest import ndjson
 from ragchat.analytics import build_report
 from ragchat.corpus_io import InvalidCorpus, export_zip, parse_import
 from ragchat.evaluation import InvalidEvalSet, parse_eval_set, score_answer

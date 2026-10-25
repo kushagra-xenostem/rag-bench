@@ -1,9 +1,9 @@
 """Print and save the feedback analytics report straight from the local database (no server needed).
 
 Usage: python scripts/analyze_feedback.py [--db data/ragchat.db] [--out reports/feedback_report.json]"""
-import argparse
-import json
 import sys
+import json
+import argparse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]

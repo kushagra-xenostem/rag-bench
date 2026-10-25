@@ -1,25 +1,23 @@
-import json
-import logging
 import os
 import re
-import threading
+import json
 import time
-from contextlib import asynccontextmanager
-from collections.abc import Callable, Iterator
-
-from fastapi import FastAPI, File, Form, HTTPException, UploadFile
-from fastapi.responses import Response, StreamingResponse
-from pydantic import BaseModel, Field
-from starlette.background import BackgroundTask
-
-from . import corpus_io, evaluation, llm
-from .analytics import build_report
+import logging
+import threading
 from .chunking import chunk_text
+from .analytics import build_report
+from pydantic import BaseModel, Field
+from . import corpus_io, evaluation, llm
 from .config import Settings, get_settings
-from .embed import Embedder, FastEmbedder, FastReranker, Reranker
-from .loaders import UnsupportedFile, extract_text
-from .retrieval import METHODS, RetrievalConfig, Retriever
+from contextlib import asynccontextmanager
 from .store import DuplicateDocument, Store
+from collections.abc import Callable, Iterator
+from starlette.background import BackgroundTask
+from .loaders import UnsupportedFile, extract_text
+from fastapi.responses import Response, StreamingResponse
+from .retrieval import METHODS, RetrievalConfig, Retriever
+from .embed import Embedder, FastEmbedder, FastReranker, Reranker
+from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 
 log = logging.getLogger("ragchat")
 _CITE = re.compile(r"\[(\d+)\]")

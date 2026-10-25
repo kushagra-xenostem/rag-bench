@@ -2,12 +2,11 @@
 
 Usage: python scripts/run_eval.py [--eval samples/eval_set.jsonl] [--answers] [--method hybrid] [--top-k 5]
        [--index-samples] [--backend http://127.0.0.1:8004]"""
-import argparse
 import json
 import time
-from pathlib import Path
-
 import httpx
+import argparse
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SAMPLES = ["employee_handbook.md", "travel_policy.txt", "aurora_x2_manual.md"]

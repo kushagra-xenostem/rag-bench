@@ -1,12 +1,11 @@
-import hashlib
 import json
-import sqlite3
-import threading
 import time
 import uuid
-from pathlib import Path
-
+import hashlib
+import sqlite3
+import threading
 import numpy as np
+from pathlib import Path
 
 SCHEMA_VERSION = 2
 SCHEMA = """

@@ -1,10 +1,8 @@
-import json
 import re
-from collections.abc import Iterator
-
+import json
 import httpx
-
 from .config import Settings
+from collections.abc import Iterator
 
 SYSTEM_PROMPT = """You answer questions using ONLY the numbered context passages provided.
 Rules:

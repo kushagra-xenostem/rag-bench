@@ -1,11 +1,10 @@
-import json
 import os
+import json
 import uuid
-from pathlib import Path
-
 import httpx
 import pandas as pd
 import streamlit as st
+from pathlib import Path
 
 BACKEND = os.getenv("BACKEND_URL", f"http://127.0.0.1:{os.getenv('BACKEND_PORT', '8004')}")
 SAMPLE_EVAL = Path(__file__).resolve().parents[1] / "samples" / "eval_set.jsonl"

@@ -1,6 +1,5 @@
-from conftest import ndjson
-
 from ragchat import llm
+from conftest import ndjson
 
 DOC = (b"The Zephyr-9 battery lasts 14 hours on a single charge. "
        b"It charges fully in 90 minutes using the USB-C port. "

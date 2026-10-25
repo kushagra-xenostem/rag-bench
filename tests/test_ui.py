@@ -1,15 +1,13 @@
 """Renders the Streamlit UI headlessly against a real (in-process) backend with fake models and LLM."""
-import socket
-import threading
 import time
-
 import httpx
 import pytest
+import socket
 import uvicorn
-from conftest import ROOT, HashEmbedder, OverlapReranker
-
+import threading
 from ragchat.api import create_app
 from ragchat.config import Settings
+from conftest import ROOT, HashEmbedder, OverlapReranker
 
 
 @pytest.fixture(scope="module")
